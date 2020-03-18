@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ErvingS Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/dev.jpg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Erving Sosa</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/portrait.jpg" alt="a picture of Erving smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Design and develop applications for a variety of uses and scenarios. Prior 2 year experience with front end applications.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Technologies Used</h3>
+                    <p>Proficient in C++, programmed on Windows and Linux systems. Familiarity with Python and Java. Continuous learning.</p>
+                </div> <!-- / service -->
+                
+               
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based out of Las Vegas</p>
+           
+           <div class="about-me__body">
+               <p>Currently a senior at University of Nevada, Las Vegas working to get my Bachelor's of Science in Computer Science. </p>
+			   <p>Strength is learning new programming aspects in a timely manner. I am experienced in C++, with some basic knowledge in C, Python, Java, and HTML. My main interest is full stack software development.</p>
+           </div>
+           
+           <img src="img/Udemy_code.jpg" alt="C++ code, image belongs to Udemy" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01, c++ prereq courses -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/course prereq.jpg" alt="img belongs to Uni of Houston" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02, autoloan calculator -->
+                <a href="portfolio-item1.html" class="portfolio__item">
+                    <img src="img/autoloan key.jpg" alt="from http://carloancalculatoronline.eklablog.net/" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03, Simple todo app -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/todo.jpg" alt="" class="portfolio__img">
+                </a>
+				
+				<!-- Portfolio item 04, Personal Portfolio website -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                   <img src="img/myweb.jpg" alt="" class="portfolio__img">  
+                </a>
+                
+               
+                
+                
+              
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:marureso@unlv.nevada.edu" class="footer__link">marureso@unlv.nevada.edu</a>
+            <ul class="social-list">
+				<li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/emsosa/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/erving_s">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/eems20">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

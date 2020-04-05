@@ -411,12 +411,13 @@ header {
 }
 
 .portfolio__img {
-	 width: 500px;
-     height: 500px;
+	 width: 400px;
+     height: 400px;
      background-position: 50% 50%;
      background-repeat: no-repeat;
-     background-size: cover;
-   /* transition: 
+	 object-fit: cover;
+    /* background-size: cover;
+    transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;*/
 }
@@ -482,6 +483,13 @@ header {
 
 
 /* Individual portfolio item styles */
+
+.centered {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
